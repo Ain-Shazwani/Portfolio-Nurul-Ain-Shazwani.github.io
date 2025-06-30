@@ -1,142 +1,71 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nurul Ain Shazwani binti Ahmad Zaini | IT Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #1e3c72, #2a5298);
-      color: #fff;
-    }
-
-    header {
-      padding: 60px 20px;
-      text-align: center;
-      background: rgba(0,0,0,0.2);
-    }
-
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    .tagline {
-      font-style: italic;
-      font-size: 1.2em;
-      color: #cce6ff;
-    }
-
-    .section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    .section h2 {
-      color: #cce6ff;
-      border-bottom: 2px solid #cce6ff;
-      padding-bottom: 5px;
-    }
-
-    .card {
-      background: #fff;
-      color: #000;
-      margin: 20px 0;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .card h3 {
-      margin-top: 0;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    a {
-      color: #ffcc00;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: rgba(0,0,0,0.2);
-      font-size: 0.9em;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nurul Ain Shazwani | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="profile.jpg" alt="Nurul Ain Shazwani" class="profile-pic"/>
+      <h2>Nurul Ain Shazwani</h2>
+      <div class="socials">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <nav class="menu">
+        <a class="active" href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
+    </aside>
 
-  <header>
-    <h1>Nurul Ain Shazwani</h1>
-    <p class="tagline">Cloud Computing | Web Development | Cybersecurity Enthusiast</p>
-  </header>
+    <main class="main-content">
+      <section class="about">
+        <h1>About Me</h1>
+        <p>
+          I'm <strong>Nurul Ain Shazwani</strong>, an enthusiastic IT student with strong interests in <strong>Cloud Computing</strong>, <strong>Cybersecurity</strong>, and <strong>Web Development</strong>. I enjoy building secure and scalable systems using tools like AWS and GitHub, and creating clean, responsive websites.
+        </p>
+      </section>
 
-  <div class="section">
-    <h2>About Me</h2>
-    <div class="card">
-      <p>I am an IT student passionate about designing secure, scalable, and cloud-based applications. I enjoy working with technologies like AWS, HTML/CSS, and Java, and I’m eager to contribute to real-world digital solutions.</p>
-    </div>
+      <section class="section">
+        <h1>Skills</h1>
+        <div class="info-grid">
+          <ul>
+            <li><strong>Languages:</strong> HTML, CSS, Java, Python</li>
+            <li><strong>Web Development:</strong> Responsive Design, UX/UI</li>
+          </ul>
+          <ul>
+            <li><strong>Cloud Tools:</strong> AWS EC2, S3, Lambda</li>
+            <li><strong>Cybersecurity:</strong> CCNA, Secure Authentication</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h1>Projects</h1>
+        <ul>
+          <li><strong>Cloud-Based Event Registration System</strong> – Serverless architecture using AWS (S3, Lambda, API Gateway).</li>
+          <li><strong>Delivery Route Optimization</strong> – Java-based greedy algorithm to optimize delivery paths.</li>
+          <li><strong>Kampung Cottage Website</strong> – Tourism site built with HTML, CSS, and Figma UI prototype.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h1>Contact</h1>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:ain.shazwani@example.com">ain.shazwani@example.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/ain-shazwani" target="_blank">github.com/ain-shazwani</a></li>
+          <li><strong>LinkedIn:</strong> <a href="#">(Your LinkedIn URL)</a></li>
+        </ul>
+      </section>
+    </main>
   </div>
-
-  <div class="section">
-    <h2>Skills</h2>
-    <div class="card">
-      <ul>
-        <li>Languages: HTML, CSS, Java, Python</li>
-        <li>Tools: AWS (EC2, S3, Lambda), GitHub, Cisco Packet Tracer</li>
-        <li>Soft Skills: Teamwork, Problem Solving, Technical Writing</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Projects</h2>
-
-    <div class="card">
-      <h3>📦 Cloud-Based Event Registration System</h3>
-      <p>Built using AWS EC2, S3, and Lambda to handle real-time event signups with secure storage and auto-scaling.</p>
-    </div>
-
-    <div class="card">
-      <h3>🚚 Delivery Route Optimization (Greedy Algorithm)</h3>
-      <p>Java project that optimizes delivery paths using greedy logic to reduce delivery time and cost.</p>
-    </div>
-
-    <div class="card">
-      <h3>🏡 Kampung Cottage Website</h3>
-      <p>Responsive website designed for a village homestay using HTML, CSS, and Figma prototype for UI/UX presentation.</p>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Certifications</h2>
-    <div class="card">
-      <ul>
-        <li>AWS Cloud Practitioner (In Progress)</li>
-        <li>CCNA: Introduction to Networks</li>
-        <li>Google Cybersecurity Fundamentals</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Contact</h2>
-    <div class="card">
-      <p>Email: <a href="mailto:ain.shazwani@example.com">ain.shazwani@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/ain-shazwani" target="_blank">github.com/ain-shazwani</a></p>
-      <p>LinkedIn: <a href="#">(Add your LinkedIn link)</a></p>
-    </div>
-  </div>
-
-  <footer>
-    © 2025 Nurul Ain Shazwani. All rights reserved.
-  </footer>
-
 </body>
 </html>
