@@ -102,6 +102,7 @@ p {
 }
 
 @media (max-width: 768px) {
+  
   .container {
     flex-direction: column;
   }
@@ -116,4 +117,5 @@ p {
   .main-content {
     padding: 20px;
   }
+  
 }
