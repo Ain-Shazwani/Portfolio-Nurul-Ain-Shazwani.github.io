@@ -3,62 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nurul Ain Shazwani | Portfolio</title>
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <aside class="sidebar">
-      <img src="RESUME PIC.jpg" alt="Nurul Ain Shazwani" class="profile-pic"/>
-      <h2>Nurul Ain Shazwani</h2>
-      <div class="socials">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fa-solid fa-envelope"></i></i></a>
-      </div>
-      <nav class="menu">
-        <a class="active" href="index.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+  <header>
+    <div class="container">
+      <div class="logo">Portfolio
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
-    </aside>
+    </div>
+    </div>
+  </header>
 
-    <main class="main-content">
-      <section class="about">
-        <h1>About</h1>
-        <p>
-          Welcome to my professional portfolio. I specialize in designing user-friendly and responsive web applications,
-          focusing on UI/UX principles and modern front-end technologies.
-        </p>
-        <div class="about-content">
-          <img  style="weight: 500px; height: 500px;" src="RESUME PIC.jpg" alt="Profile Image"/>
-          <div class="about-details">
-            <h2>Web & UI/UX Developer</h2>
-            <p><em>Creative and detail-oriented developer with a passion for clean design and efficient coding.</em></p>
-            <div class="info-grid">
-              <ul>
-                <li><strong>Role:</strong> Front-End Developer</li>
-                <li><strong>Expertise:</strong> HTML, CSS, JavaScript, React</li>
-                <li><strong>Location:</strong> Remote / On-site</li>
-                <li><strong>Experience:</strong> 5+ years</li>
-              </ul>
-              <ul>
-                <li><strong>Projects:</strong> 20+ completed</li>
-                <li><strong>Tools:</strong> Figma, VSCode, Git</li>
-                <li><strong>Availability:</strong> Freelance / Full-time</li>
-                <li><strong>Languages:</strong> English, Spanish</li>
-              </ul>
-            </div>
-            <p>
-              I build responsive websites that are fast, accessible, and visually engaging. I enjoy transforming 
-              complex problems into simple and intuitive interfaces. Let’s work together to bring your ideas to life.
-            </p>
-          </div>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm <span>Nurul Ain Shazwani</span></h2>
+      <p>Web Developer | Designer | Dreamer</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Passionate and motivated to pursue opportunities that will allow me to grow professionally in the IT field and related environment with my versatile skills to achieve your corporate mission and exceed team goals effectively.</p>
+      <p> Demonstrate communication skills, service management skills, and presentation skills in web development</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section dark">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="card">
+          <i class="fa-solid fa-laptop-code fa-2x"></i>
+          <h3>Portfolio Website</h3>
+          <p>A responsive portfolio website to showcase my skills and projects.</p>
         </div>
-      </section>
-    </main>
-  </div>
+        <div class="card">
+          <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+          <h3>Mobile App UI</h3>
+          <p>Designed an elegant mobile app interface using Figma and CSS animations.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-database fa-2x"></i>
+          <h3>CRUD System</h3>
+          <p>A simple Create-Read-Update-Delete system using PHP & MySQL.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you’d like to collaborate or just say hello, feel free to drop a message!</p>
+      <div class="contact-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nurul Ain Shazwani. All rights reserved.</p>
+  </footer>
 </body>
 </html>
